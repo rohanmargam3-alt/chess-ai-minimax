@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AI Chess Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>♟️ AI Chess Game (Minimax)</h1>
+<h2 id="status">♟️ White to move</h2>
+
+<div id="board"></div>
+
+<button onclick="resetGame()">🔄 Restart</button>
+
+<!-- Overlay -->
+<div id="overlay" class="overlay hidden">
+  <div class="overlay-content">
+    <h1 id="resultText">CHECKMATE</h1>
+    <button onclick="resetGame()">Play Again</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
